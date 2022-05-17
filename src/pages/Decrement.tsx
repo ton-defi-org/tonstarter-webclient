@@ -1,8 +1,10 @@
 import React from "react";
 import { Page } from "components";
+import { useTranslation } from "react-i18next";
 
 const Decrement = () => {
-  return <Page>Decrement</Page>;
+  const {t}  =useTranslation()
+  return <Page>{t('decrement')}</Page>;
 };
 
 export { Decrement };

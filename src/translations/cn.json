@@ -13,7 +13,9 @@
     "insert wallet address":"插入钱包地址",
     "please install wallet extension":"请安装钱包扩展",
     "cancel":"取消",
-    "actions list": "Actions list"
+    "actions list": "动作列表",
+    "universal deel-links":"Universal deep-links",
+    "ton hub":"TonHub",
+    "select action":"选择动作"
 
-  
 }

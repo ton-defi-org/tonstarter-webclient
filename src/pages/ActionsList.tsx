@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Container, Grid, Paper, Typography } from "@mui/material";
+import { Grid, Paper, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { Page } from "components";
@@ -20,8 +20,8 @@ const ActionsList = () => {
   const { t } = useTranslation();
   return (
     <Page>
-      <Container>
-        <Grid container spacing={2}>
+        <Typography variant='h4' textAlign='center'>{t('select action')}</Typography>
+        <Grid maxWidth='700px' paddingTop='20px' container spacing={2}>
           {ACTIONS.map((action) => {
             const { key, route } = action;
             return (
@@ -35,7 +35,6 @@ const ActionsList = () => {
             );
           })}
         </Grid>
-      </Container>
     </Page>
   );
 };

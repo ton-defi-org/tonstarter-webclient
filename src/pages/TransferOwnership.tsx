@@ -1,7 +1,9 @@
 import { Page } from "components";
+import { useTranslation } from "react-i18next";
 
 const TransferOwnership = () => {
-  return <Page>TransferOwnership</Page>;
+  const {t} = useTranslation()
+  return <Page>{t('transfer-ownership')}</Page>;
 };
 
 export { TransferOwnership };

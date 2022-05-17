@@ -1,9 +1,9 @@
 import { createContext, ReactNode, useState } from "react";
-import { getAddressFromLocalStorage, updateAddressInLocalStorage } from "helpers";
+import { Address } from "ton";
 
 interface State {
-  address: string | null;
-  updateAddress: (value: string | null) => void;
+  address?: Address;
+  updateAddress: (value?: Address) => void;
   isTelegram: boolean;
   setIsTelegram: (value: boolean) => void;
 }
@@ -11,13 +11,12 @@ interface State {
 const Context = createContext({} as State);
 
 const ContextProvider = ({ children }: { children: ReactNode }) => {
-  const [address, setAddress] = useState<string | null>(getAddressFromLocalStorage());
+  const [address, setAddress] = useState<Address | undefined>();
   const [isTelegram, setIsTelegram] = useState(false)
 
   
 
-    const updateAddress = (value: string | null) => {
-      updateAddressInLocalStorage(value)
+    const updateAddress = (value?: Address) => {
       setAddress(value)
     }
 
