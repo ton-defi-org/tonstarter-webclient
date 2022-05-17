@@ -1,0 +1,19 @@
+{
+ 
+    "connect wallet": "连接钱包",
+    "title": "Welcome to react using react-i18next123",
+    "web extension": "网络扩展",
+    "address":"地址",
+    "deposit": "订金",
+    "withdraw": "提取",
+    "increment": "增量",
+    "decrement": "递减",
+    "transfer-ownership": "所有权转让",
+    "submit":"提交",
+    "insert wallet address":"插入钱包地址",
+    "please install wallet extension":"请安装钱包扩展",
+    "cancel":"取消",
+    "actions list": "Actions list"
+
+  
+}

@@ -1,0 +1,16 @@
+{
+  "connect wallet": "Connect Wallet",
+  "title": "Welcome to react using react-i18next",
+  "web extension": "Web extension",
+  "address": "Address",
+  "deposit": "Deposit",
+  "withdraw": "Withdraw",
+  "increment": "Increment",
+  "decrement": "Decrement",
+  "transfer-ownership": "Transfer ownership",
+  "submit":"Submit",
+  "insert wallet address":"Insert wallet address",
+  "please install wallet extension":"Please install wallet extension",
+  "cancel":"Cancel",
+  "actions list": "Actions list"
+}
