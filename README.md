@@ -1,6 +1,6 @@
 # TON Starter Template - Web Client
 
-> Starter template for a new TON project - React frontend in TypeScript to communicate with an on-chain contract
+> Starter template for a new TON project - React frontend in TypeScript to access an on-chain contract
 
 ## Overview
 
